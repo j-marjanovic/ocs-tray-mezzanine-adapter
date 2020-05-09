@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name samtec_searay)(type Legacy)(uri /home/jan/web_page/work/2020-microsoft-fpga/ocp_card_adapter_v1/ocs-tray-mezzanine-adapter-v1/libraries/samtec_searay/samtec_searay.lib)(options "")(descr ""))
+  (lib (name otma)(type Legacy)(uri ${KIPRJMOD}/libraries/otma_symbols/otma.lib)(options "")(descr ""))
+)

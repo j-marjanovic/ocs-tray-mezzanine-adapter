@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ocs-tray-mezzanine-adapter-v1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1729,12 +1728,12 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5EDED767
-P 7550 6075
-F 0 "H1" H 7650 6121 50  0000 L CNN
-F 1 "MountingHole" H 7650 6030 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.7mm" H 7550 6075 50  0001 C CNN
-F 3 "~" H 7550 6075 50  0001 C CNN
-	1    7550 6075
+P 7100 6100
+F 0 "H1" H 7200 6146 50  0000 L CNN
+F 1 "MountingHole" H 7200 6055 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.7mm" H 7100 6100 50  0001 C CNN
+F 3 "~" H 7100 6100 50  0001 C CNN
+	1    7100 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1889,16 +1888,56 @@ F 3 "" H 10500 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO?
+L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 5EFF63B5
-P 8600 6100
-F 0 "#LOGO?" H 8600 6375 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 8600 5875 50  0001 C CNN
-F 2 "Symbols:OSHW-Logo_7.5x8mm_SilkScreen" H 8600 6100 50  0001 C CNN
-F 3 "~" H 8600 6100 50  0001 C CNN
-	1    8600 6100
+P 8350 6050
+F 0 "#LOGO1" H 8350 6325 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 8350 5825 50  0001 C CNN
+F 2 "Symbols:OSHW-Logo_7.5x8mm_SilkScreen" H 8350 6050 50  0001 C CNN
+F 3 "~" H 8350 6050 50  0001 C CNN
+	1    8350 6050
 	1    0    0    -1  
 $EndComp
-Text Notes 9300 6050 0    50   ~ 0
-Copyright (C) 2020 Jan Marjanovic
+Text Notes 8800 6200 0    79   ~ 16
+Copyright (C) 2020 Jan Marjanovic\nLicensed under CERN-OHL-P v2.0
+Wire Notes Line
+	6800 5750 6800 6400
+Wire Notes Line
+	6800 6400 7950 6400
+Wire Notes Line
+	7950 5750 6800 5750
+Wire Notes Line
+	7950 5750 7950 6400
+Wire Wire Line
+	1850 800  2500 800 
+Wire Wire Line
+	1850 900  2500 900 
+Text Label 1850 800  0    50   ~ 0
+PCIE_RX_7_P
+Text Label 1850 900  0    50   ~ 0
+PCIE_RX_7_N
+Wire Wire Line
+	7900 900  7300 900 
+Wire Wire Line
+	7900 800  7300 800 
+Text Label 7300 800  0    50   ~ 0
+PCIE_TX_7_P
+Text Label 7300 900  0    50   ~ 0
+PCIE_TX_7_N
+Wire Wire Line
+	4550 800  5200 800 
+Wire Wire Line
+	4550 900  5200 900 
+Text Label 4550 800  0    50   ~ 0
+PCIE_RX_15_P
+Text Label 4550 900  0    50   ~ 0
+PCIE_RX_15_N
+Wire Wire Line
+	10600 800  10000 800 
+Text Label 10000 800  0    50   ~ 0
+PCIE_TX_15_P
+Text Label 10000 900  0    50   ~ 0
+PCIE_TX_15_N
+Wire Wire Line
+	10000 900  10600 900 
 $EndSCHEMATC

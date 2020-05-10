@@ -1,6 +1,6 @@
 # OCS Tray Mezzanine Adapter, version 1
 
-[Schematics as PDF](production/revA/ocp-tray-mezzanine-adapter-v1-revA)
+[Schematics as PDF](production/revA/ocp-tray-mezzanine-adapter-v1-revA.pdf)
 
 ## TODO for revB
 
